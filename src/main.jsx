@@ -5,9 +5,14 @@ import "./index.css";
 
 import { createHashRouter, RouterProvider } from "react-router-dom";
 
-import Home from "../src/Components/Home";
-import Characters from "../src/Components/Characters";
-import LandingPage from "../src/Components/LandingPage";
+import Home from "./Components/Home";
+import Characters from "./Components/Characters";
+import LandingPage from "./Components/LandingPage";
+import Glossary from "./Components/Glossary";
+import Maps from "./Components/Maps";
+import Store from "./Components/Store";
+import CharacterCreation from "./Components/CharacterCreation";
+import Missions from "./Components/Missions";
 
 const router = createHashRouter([
   {
@@ -21,6 +26,26 @@ const router = createHashRouter([
   {
     path: "/characters",
     element: <Characters />,
+  },
+  {
+    path: "/glossary",
+    element: <Glossary />,
+  },
+  {
+    path: "/maps",
+    element: <Maps />,
+  },
+  {
+    path: "/store",
+    element: <Store />,
+  },
+  {
+    path: "/charactercreation",
+    element: <CharacterCreation />,
+  },
+  {
+    path: "/missions",
+    element: <Missions />,
   },
 ]);
 

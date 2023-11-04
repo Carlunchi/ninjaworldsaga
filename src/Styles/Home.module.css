@@ -13,32 +13,3 @@
     background-size: cover;
   }
   
-  .navbar{
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
-    text-align: center;
-    border: none; 
-   padding: 5% 7%; 
-  
-   border-radius: 1%;
-    
-   }
-  
-   .button{
-  
-  border-radius: 5%;
-  font-size: 100%;
-  color: azure;
-  background-color: rgba(231, 102, 102, 0.466);
-   border: 20% solid #2e2b2b;
-  width: 10vw;
-  height: 10vh;
-   cursor:pointer
-   }
-  
-   .button:hover{ 
-    background: rgba(224, 202, 31, 0.581); 
-    color: none;
-    
-  }
